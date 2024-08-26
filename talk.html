@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Let's Talk</title>
+    <style>
+        body, html {
+            height: 100%;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #ffe4e1;
+            font-family: 'Comic Sans MS', sans-serif;
+            animation: fadeIn 2s ease-in-out;
+        }
+        h1 {
+            color: #ff6b81;
+            font-size: 2.5em;
+            animation: pulse 1.5s infinite;
+        }
+        p {
+            color: #555;
+            font-size: 18px;
+            animation: slideIn 1.5s ease;
+        }
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+        @keyframes pulse {
+            0% { transform: scale(1); }
+            50% { transform: scale(1.05); }
+            100% { transform: scale(1); }
+        }
+        @keyframes slideIn {
+            from { transform: translateY(20px); opacity: 0; }
+            to { transform: translateY(0); opacity: 1; }
+        }
+    </style>
+</head>
+<body>
+    <div style="text-align: center;">
+        <h1>Let's Talk</h1>
+        <p>Let's chat and make sure we're on the same page.</p>
+        <p>I really like you and want to make sure this is right for both of us.</p>
+    </div>
+</body>
+</html>
